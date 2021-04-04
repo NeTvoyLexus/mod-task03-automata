@@ -23,7 +23,7 @@ TEST(task, test3)
 	Automata coffee = Automata();
 	coffee.on();
 	coffee.coin(20);
-	coffee.choise(1);
+	coffee.choice(1);
 	int result = coffee.finish();
 	EXPECT_EQ(10, result);
 }
